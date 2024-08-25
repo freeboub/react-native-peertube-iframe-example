@@ -4415,17 +4415,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"escape-string-regexp@npm:2.0.0, escape-string-regexp@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "escape-string-regexp@npm:2.0.0"
+  checksum: 9f8a2d5743677c16e85c810e3024d54f0c8dea6424fad3c79ef6666e81dd0846f7437f5e729dfcdac8981bc9e5294c39b4580814d114076b8d36318f46ae4395
+  languageName: node
+  linkType: hard
+
 "escape-string-regexp@npm:^1.0.5":
   version: 1.0.5
   resolution: "escape-string-regexp@npm:1.0.5"
   checksum: 6092fda75c63b110c706b6a9bfde8a612ad595b628f0bd2147eea1d3406723020810e591effc7db1da91d80a71a737a313567c5abb3813e8d9c71f4aa595b410
-  languageName: node
-  linkType: hard
-
-"escape-string-regexp@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "escape-string-regexp@npm:2.0.0"
-  checksum: 9f8a2d5743677c16e85c810e3024d54f0c8dea6424fad3c79ef6666e81dd0846f7437f5e729dfcdac8981bc9e5294c39b4580814d114076b8d36318f46ae4395
   languageName: node
   linkType: hard
 
@@ -4712,6 +4712,13 @@ __metadata:
   version: 5.0.1
   resolution: "event-target-shim@npm:5.0.1"
   checksum: 1ffe3bb22a6d51bdeb6bf6f7cf97d2ff4a74b017ad12284cc9e6a279e727dc30a5de6bb613e5596ff4dc3e517841339ad09a7eec44266eccb1aa201a30448166
+  languageName: node
+  linkType: hard
+
+"events@npm:^3.2.0":
+  version: 3.3.0
+  resolution: "events@npm:3.3.0"
+  checksum: f6f487ad2198aa41d878fa31452f1a3c00958f46e9019286ff4787c84aac329332ab45c9cdc8c445928fc6d7ded294b9e005a7fce9426488518017831b272780
   languageName: node
   linkType: hard
 
@@ -5468,7 +5475,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"invariant@npm:^2.2.4":
+"invariant@npm:2.2.4, invariant@npm:^2.2.4":
   version: 2.2.4
   resolution: "invariant@npm:2.2.4"
   dependencies:
@@ -7925,6 +7932,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-native-peertube-iframe@npm:^0.1.0-beta.0":
+  version: 0.1.0-beta.0
+  resolution: "react-native-peertube-iframe@npm:0.1.0-beta.0"
+  dependencies:
+    events: ^3.2.0
+  peerDependencies:
+    react: ">=16.8.6"
+    react-native: ">=0.60"
+    react-native-web-webview: ">=1.0.2"
+    react-native-webview: ">=7.0.0"
+  peerDependenciesMeta:
+    react-native-web-webview:
+      optional: true
+    react-native-webview:
+      optional: true
+  checksum: 6224a0191d6e7becd35c4b521888afb2c0a8a03c12618b9b32b332563552a7cf3d4962a3ad0780fc27f2af402dbc3b8fff21ef3b778d78148566146bdfa2c29c
+  languageName: node
+  linkType: hard
+
+"react-native-webview@npm:^13.10.2":
+  version: 13.10.2
+  resolution: "react-native-webview@npm:13.10.2"
+  dependencies:
+    escape-string-regexp: 2.0.0
+    invariant: 2.2.4
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 9293bdcf3aae09b7f52165751d8c9c1e6810527fa895a031107785c7a800ee374d7a0993483d45b06bfc9195c4bbc709541b5ba69e0833bc6d4e55f5b55095ec
+  languageName: node
+  linkType: hard
+
 "react-native@npm:0.74.1":
   version: 0.74.1
   resolution: "react-native@npm:0.74.1"
@@ -8038,6 +8077,8 @@ __metadata:
     prettier: 2.8.8
     react: 18.2.0
     react-native: 0.74.1
+    react-native-peertube-iframe: ^0.1.0-beta.0
+    react-native-webview: ^13.10.2
     react-test-renderer: 18.2.0
     typescript: 5.0.4
   languageName: unknown
