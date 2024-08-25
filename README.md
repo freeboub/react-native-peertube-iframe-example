@@ -1,6 +1,6 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-The aim of this project is to demonstrate [react-native-peertube]() package.
+The aim of this project is to demonstrate [react-native-peertube-iframe](https://github.com/freeboub/react-native-peertube-iframe) package.
 
 # Getting Started
 
