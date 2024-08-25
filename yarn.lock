@@ -7932,9 +7932,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-peertube-iframe@npm:^0.1.0-beta.0":
-  version: 0.1.0-beta.0
-  resolution: "react-native-peertube-iframe@npm:0.1.0-beta.0"
+"react-native-peertube-iframe@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "react-native-peertube-iframe@npm:0.1.0"
   dependencies:
     events: ^3.2.0
   peerDependencies:
@@ -7947,7 +7947,7 @@ __metadata:
       optional: true
     react-native-webview:
       optional: true
-  checksum: 6224a0191d6e7becd35c4b521888afb2c0a8a03c12618b9b32b332563552a7cf3d4962a3ad0780fc27f2af402dbc3b8fff21ef3b778d78148566146bdfa2c29c
+  checksum: 7d89f2562d1ba398a9d66d3341a1e98ae79bd2586326ef4407e11ca4f8eb9cbb50b8afabb9e0018acf5181b9ca06527612fab08a3a5561fd4b65daad6a9d3c08
   languageName: node
   linkType: hard
 
@@ -8077,7 +8077,7 @@ __metadata:
     prettier: 2.8.8
     react: 18.2.0
     react-native: 0.74.1
-    react-native-peertube-iframe: ^0.1.0-beta.0
+    react-native-peertube-iframe: ^0.1.0
     react-native-webview: ^13.10.2
     react-test-renderer: 18.2.0
     typescript: 5.0.4

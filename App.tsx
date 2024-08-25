@@ -31,7 +31,7 @@ function App(): React.JSX.Element {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-  const [paused, setPaused] = useState(true);
+  const [paused, setPaused] = useState(false);
   const [volume, setVolume] = useState(1);
   const [rates, setRates] = useState<number[] | undefined>();
   const [selectedRate, setSelectedRate] = useState<number>();
